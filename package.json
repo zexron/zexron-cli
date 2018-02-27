@@ -1,6 +1,6 @@
 {
   "name": "zexron-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy CLI commands",
   "main": "index.js",
   "scripts": {

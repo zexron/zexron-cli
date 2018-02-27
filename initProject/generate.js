@@ -2,7 +2,7 @@
  * Author: Nick.Xu
  * Date: 2018-02-27 10:47:9
  * -----
- * Last Modified: 2018-02-27 12:09:46
+ * Last Modified: 2018-02-27 02:09:38
  */
 
 const fs = require('fs')
@@ -46,9 +46,9 @@ exports.generate = function (type, dir) {
         if (data.files[key].dir) {
           fs.mkdirSync(filePath)
         } else {
-          const buffer = zip.file(key).async('arraybuffer')
+          const buffer = zip.file(key).async('string')
             .then(function (data) {
-              fs.writeFileSync(filePath, buffer)
+              fs.writeFileSync(filePath, data)
             })
         }
       })
