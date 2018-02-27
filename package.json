@@ -1,0 +1,33 @@
+{
+  "name": "zexron-cli",
+  "version": "0.0.1",
+  "description": "Easy CLI commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "z-cli": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zexron/zexron-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": {
+    "name": "zexron",
+    "email": "yang_hello@hotmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zexron/zexron-cli/issues"
+  },
+  "homepage": "https://github.com/zexron/zexron-cli#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "commander": "^2.14.1",
+    "jszip": "^3.1.5"
+  }
+}
