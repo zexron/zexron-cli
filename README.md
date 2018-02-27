@@ -1,6 +1,11 @@
 # zexron-cli
 My Easy CLI commands
 
+## Install
+```bash
+$ npm install -g zexron-cli
+```
+
 ## Usage
 ```bash
 $ z-cli <command> [options]
