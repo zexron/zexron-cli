@@ -23,6 +23,5 @@ To generate a frontend project based on gulp or webpack [learn more](https://git
 
 ```bash
 $ z-cli generate --help
-
 $ z-cli g --help
 ```
